@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MySQL</title>
+<link href="../css/通用.css" rel="stylesheet" type="text/css">
+	     <style>
+ body{
+             background-color: black;
+            background:url("../photo/5.png") fixed;
+	 	z-index: 2;
+         }
+    </style>
+</head>
+
+<body>
+
+	<div class="bigbox">
+				<h2>MySQL</h2>
+				<p style="text-align: right;font-family: 楷体; font-size: 20px;">&nbsp; </p>
+		 </div>
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+<div>
+		<div class="smallbox">
+			<h2>数据库命令</h2>
+			<p style="text-align: left;font-family: 楷体">
+			一.&nbsp;创建数据库<br >
+			CREATE DATABASE 数据库名; <br >
+			二.&nbsp;删除数据库<br >
+			drop database 数据库名;<br >
+			三.&nbsp;选择数据库<br >
+			use 数据库名;<br >
+			</p>
+		</div>
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >	<br >
+	<br >
+	<br >
+		<div class="smallbox">
+			<h2>数据表命令</h2>
+			<p style="text-align: left;font-family: 楷体">
+			一.&nbsp;创建数据表<br >
+			CREATE TABLE 表名 (字段名); <br >
+			二.&nbsp;删除数据表<br >
+			DROP TABLE 表名;<br >
+			三.&nbsp;插入数据<br >
+			INSERT INTO table_name ( field1, field2,...fieldN )<br >
+                       VALUES <br >
+                       ( value1, value2,...valueN );<br >
+			</p>
+		</div>
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >	
+	<br >
+	<br >
+	<br >	<div class="smallbox">
+			<h2>查询数据</h2>
+			<p style="text-align: left;font-family: 楷体">
+			1.&nbsp;查询语句中你可以使用一个或者多个表，表之间使用逗号(,)分割，并使用WHERE语句来设定查询条件。<br >
+			2.&nbsp;SELECT 命令可以读取一条或者多条记录。<br >
+			3.&nbsp;可以使用星号（*）来代替其他字段，SELECT语句会返回表的所有字段数据<br >
+			4.&nbsp;可以使用 WHERE 语句来包含任何条件。<br >
+			5.&nbsp;可以使用 LIMIT 属性来设定返回的记录数。<br >
+			6.&nbsp;可以通过OFFSET指定SELECT语句开始查询的数据偏移量。默认情况下偏移量为0。<br >
+			
+			</p>
+		</div>
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >	
+	<br >
+	<br >
+	<br >
+	<div class="smallbox">
+			<h2>排序</h2>
+			<p style="text-align: left;font-family: 楷体">
+			 1.&nbsp;SQL SELECT 语句使用 ORDER BY 子句将查询数据排序后再返回数据：<br >
+			SELECT field1, field2,...fieldN FROM table_name1, table_name2...
+				ORDER BY field1 [ASC [DESC][默认 ASC]], [field2...] [ASC [DESC][默认 ASC]]<br >
+			2.&nbsp;可以使用任何字段来作为排序的条件，从而返回排序后的查询结果。<br >
+			3.&nbsp;可以设定多个字段来排序。<br >
+			4.&nbsp;可以使用 ASC 或 DESC 关键字来设置查询结果是按升序或降序排列。 默认情况下，它是按升序排列。<br >
+			5.&nbsp;可以添加 WHERE...LIKE 子句来设置条件。<br >
+			</p>
+		</div>
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+		<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >
+	<br >	<br >
+	<br >
+	<br >	<div class="smallbox">
+			<h2>复制表</h2>
+			<p style="text-align: left;font-family: 楷体">
+			1.&nbsp;使用 SHOW CREATE TABLE 命令获取创建数据表(CREATE TABLE) 语句，该语句包含了原数据表的结构，索引等。<br />
+			2.&nbsp;复制以下命令显示的SQL语句，修改数据表名，并执行SQL语句，通过以上命令 将完全的复制数据表结构。<br />
+			3.&nbsp;如果你想复制表的内容，你就可以使用 INSERT INTO ... SELECT 语句来实现。<br />
+			</p>
+		</div>
+	
+	<div class="pagination Paging-box">
+  <a href="#">&lt;</a>
+ 	<a href="课程表.html">1</a>
+   <a href="linux.html">2</a>
+  <a href="HTML.html">3</a>
+  <a href="python.html">4</a>
+   <a href="MySQL.html">5</a>
+   <a href="#">6</a>
+   <a href="#">7</a>
+  <a href="#">8</a>
+  <a href="#">9</a>
+  <a href="#" >&gt;</a>
+</div>
+	</div>
+</body>
+</html>

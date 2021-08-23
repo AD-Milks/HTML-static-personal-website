@@ -1,0 +1,127 @@
+@charset 'utf-8';
+
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #fdfdfd;
+}
+
+.top audio {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  margin: auto;
+}
+
+.top {
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+}
+
+.top img {
+  width: 100%;
+  height: 70%;
+
+  background-clip: padding-box;
+}
+
+.top h1 {
+  position: absolute;
+  top: 280px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+  width: 800px;
+
+  font-size: 40px;
+  font-weight: 550;
+  text-align: center;
+}
+
+.navi {
+  width: 6%;
+}
+
+.column {
+  float: left;
+
+  position: absolute;
+  top: 15px;
+  left: 2px;
+
+  padding: 10px;
+}
+
+.navi a {
+  display: block;
+
+  margin-bottom: 0;
+  border-radius: 30px 30px;
+  padding: 10px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: rgb(3, 3, 3);
+  background-color: rgb(226, 226, 226);
+}
+
+.navi a:hover {
+  background-color: #2965d3;
+}
+
+.main1 {
+  display: flex;
+  overflow: hidden;
+  overflow: hidden;
+
+  margin-top: 60px;
+  height: 90%;
+
+  justify-content: center; /*justify-content 用于设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。*/
+}
+
+.main1 p {
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 32%;
+  height: 25%;
+
+  font-size: 18px;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.main1 img {
+  width: 45%;
+  height: 30%;
+}
+
+.main2 {
+  display: flex;
+  overflow: hidden;
+
+  margin-top: 60px;
+  padding-bottom: 80px;
+  width: 100%;
+  height: 100%;
+
+  justify-content: center;
+}
+
+.main2 p {
+  margin-right: 100px;
+  margin-left: 300px;
+  width: 25%;
+
+  font-size: 20px;
+
+  color: #000;
+}

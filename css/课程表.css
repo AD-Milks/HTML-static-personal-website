@@ -1,0 +1,101 @@
+@charset 'utf-8';
+
+/* CSS Document */
+body {
+  text-align: center;
+
+  background-color: #fdfdfd;
+}
+
+.top {
+  border-color: #f3d323;
+  border-bottom-style: dashed;
+  padding: 0;
+
+  font: 60px 黑体;
+
+  color: #00a0fa;
+}
+
+.navi {
+  width: 6%;
+}
+
+.column {
+  float: right;
+
+  position: absolute;
+  top: 30px;
+  right: 2px;
+
+  padding: 15px;
+}
+
+.navi a {
+  display: block;
+
+  margin-bottom: 4px;
+  border-radius: 15px 15px;
+  padding: 15px;
+
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  color: rgb(3, 3, 3);
+  background-color: rgba(236, 236, 236, 1);
+}
+
+.navi a:hover {
+  background-color: #0bcadc;
+}
+
+#p1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#p2 {
+  margin: 10px 25px 5px 0;
+
+  font: 20px 黑体；;
+  text-align: right;
+}
+
+.main1 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main1 th {
+  margin: 0;
+  padding: 30px;
+  width: 5%;
+
+/*border-style: dashed;*/
+
+  background-color: #0bcadc;
+}
+
+.time {
+  margin: 0;
+  padding: 30px;
+  width: 5%;
+  height: 40px;
+
+/*border-style: dashed;*/
+
+  background-color: #0bcadc;
+}
+
+.main2 {
+  margin: 0;
+  padding: 30px;
+  width: 5%;
+  height: 40px;
+
+/*	border-style: dashed;*/
+
+  background-color: #bbb4b4;
+}

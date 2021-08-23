@@ -1,0 +1,119 @@
+@charset 'utf-8';
+
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #555;
+}
+
+.bigbox {
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  margin: auto;
+  border-radius: 2%;
+  width: 967px;
+  height: 2550px;
+
+  background-color: white;
+
+  opacity: .4;
+}
+
+.smallbox {
+  overflow: auto;
+
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 6;
+
+  margin: auto;
+  border-radius: 23px;
+  width: 900px;
+  height: 350px;
+
+  background-color: white;
+
+  opacity: 1;
+}
+
+.bigbox h2 {
+  opacity: 1;
+}
+
+h2 {
+  padding: 10px;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  overflow: auto;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/*分页导航条*/
+.pagination {
+  display: inline-block;
+
+  list-style: none;
+
+  position: relative;
+  top: 600px;
+  right: 35%;
+  left: 35%;
+
+  margin-top: 10px;
+  padding: 0;
+}
+
+.pagination a {
+  display: block;
+  float: left;
+
+  margin-left: -1px;
+  border: 1px solid transparent;
+  padding: 5px 12px;
+
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+
+  color: #fff;
+}
+
+.Paging-box {
+  border-radius: 6px 0 0 6px;
+
+  color: #fff;
+}
+
+.Paging-box a {
+  border-color: #ddd;
+
+  color: #4285f4;
+  background: #fff;
+}
+
+.Paging-box a:hover {
+  background: #eee;
+}
+
+.Paging-box a:first-child {
+  /*:first-child 选择器用于匹配父元素下第一个子元素。*/
+  border-radius: 7px 0 0 6px;
+}
+
+.Paging-box a:last-child {
+  /*:last-child 选择器匹配父元素下最后一个子元素。*/
+  border-radius: 0 6px 6px 0;
+}

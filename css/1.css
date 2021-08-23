@@ -1,0 +1,162 @@
+@charset 'utf-8';
+
+/* CSS Document */
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+  background-color: rgb(255, 255, 255);
+}
+
+/*导航栏*/
+.topmenu {
+  overflow: hidden;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+
+  background-color: #111;
+}
+
+.topmenu a {
+  display: inline-block;
+
+  -webkit-border-radius: 15px 15px;
+     -moz-border-radius: 15px 15px;
+          border-radius: 15px 15px;
+  padding-top: 13px;
+  padding-right: 26px;
+  padding-bottom: 18px;
+  padding-left: 26px;
+  height: 21px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+
+      -ms-border-radius: 15px 15px;
+       -o-border-radius: 15px 15px;
+}
+
+.topmenu a:hover {
+  /*:hover 选择器鼠标指针在其上浮动的链接设置样式*/
+  background-color: #82e8ff;
+}
+
+/*页面主体*/
+.mian {
+  background-color: #000;
+}
+
+/*一.页面左侧主体*/
+.column {
+  float: left;
+
+  padding: 15px;
+}
+
+.leftnavi {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.leftnavi a {
+  display: block;
+
+  margin-bottom: 4px;
+  border-radius: 15px 15px;
+  padding: 12px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: rgb(3, 3, 3);
+  background-color: #b0b0b0;
+}
+
+.leftnavi a:hover {
+  color: white;
+  background-color: #55dbf3;
+}
+
+/*二..页面右侧主体*/
+.Rcolumn {
+  float: right;
+
+  padding: 15px;
+  width: 70%;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+
+  background-image: url('../photo/1.1 (1).jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  background-size: 100%;
+}
+
+.right {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+
+  margin: auto;
+  border-radius: 15px 15px;
+  padding: 25px;
+  width: 69%;
+  height: 1300px;
+
+  text-align: center;
+
+  color: #e3e3e3;
+  background-color: #787f87;
+}
+
+.p1 {
+  margin: 70px;
+  width: 95%;
+
+  font: 850 90px 黑体;
+
+  background-image: url('../photo/星空.jpg');
+  -webkit-background-clip: text;
+          background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.p2 {
+  width: 100%;
+  height: 60%;
+
+  font: italic 30px 40px 黑体；;
+
+  color: #fff;
+}
+
+/*页脚*/
+.footer {
+  position: fixed;
+  bottom: 0; /* bottom 属性规定元素的底部边缘*/
+
+  border-top-left-radius: 15px 10px;
+  border-top-right-radius: 15px 10px;
+  width: 100%;
+
+  text-align: center;
+
+  color: white;
+  background-color: #444;
+}

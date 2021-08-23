@@ -1,0 +1,208 @@
+@charset 'utf-8';
+
+/* CSS Document */
+body {
+  margin: 0;
+
+  background-color: rgb(255, 255, 255);
+}
+
+/*一、导航栏*/
+.topmenu {
+  overflow: hidden;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+  height: 50px;
+
+  background-color: #777;
+}
+
+.topmenu a {
+  display: inline-block;
+
+  border-radius: 15px 15px;
+  padding-top: 13px;
+  padding-right: 26px;
+  padding-bottom: 26px;
+  padding-left: 26px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: white;
+}
+
+.topmenu a:hover {
+  /*:hover 选择器鼠标指针在其上浮动的链接设置样式*/
+  background-color: #222;
+}
+
+/*二、页面主题*/
+
+.topnav {
+  overflow: hidden;
+
+  background-color: #111;
+}
+
+/* 导航条链接 */
+.topnav a {
+  display: block;
+  float: left;
+
+  border-radius: 15px 15px;
+  padding: 14px 26px;
+
+  text-align: center;
+  text-decoration: none;
+
+  color: #f2f2f2;
+}
+
+/* 链接颜色修改 */
+.topnav a:hover {
+  color: black;
+  background-color: rgba(50, 243, 250, .74);
+}
+
+.header {
+  border-radius: 15px 15px;
+  padding: 5px;
+
+  text-align: center;
+
+  background: #9c9c9c;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/*主体*/
+.leftcolumn {
+  float: left;
+
+  width: 70%;
+}
+
+.rightcolumn {
+  float: right;
+
+  margin-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 25%;
+
+  background-color: #c8c1c1;
+}
+
+/* 图像部分 */
+
+.fakeimg {
+  border-radius: 15px 15px;
+  padding: 5px;
+  width: 100%;
+  height: 250px;
+
+  background-color: #aaa;
+}
+
+.fakeimg img {
+  width: 15%;
+  height: 95%;
+}
+
+.fakeimg img:hover {
+  width: 16%;
+  height: 100%;
+}
+
+.fakeimg1 {
+  border-radius: 15px 15px;
+  padding: 5px;
+  width: 100%;
+  height: 250px;
+
+  background-color: #aaa;
+}
+
+.fakeimg1 img {
+  width: 23%;
+  height: 90%;
+}
+
+.fakeimg1 img:hover {
+  width: 24%;
+  height: 95%;
+}
+
+.fakeimg2 {
+  -webkit-box-pack: center;
+
+  border-radius: 15px 15px;
+  padding: 5px;
+  width: 100%;
+  height: auto;
+
+  background-color: #aaa;
+
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.fakeimg2 img {
+  width: 85%;
+  height: 95%;
+}
+
+.fakeimg2 img:hover {
+  width: 88%;
+  height: 100%;
+}
+
+/* 文章卡片效果 */
+.card {
+  margin-top: 20px;
+  border-radius: 15px 15px;
+  padding: 20px;
+
+  background-color: #c1c1c1;
+}
+
+/* 列后面清除浮动 */
+.row:after {
+  display: table;
+  clear: both;
+
+  content: '';
+}
+
+.foot {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  border-radius: 15px 15px;
+  padding: 20px;
+
+  text-align: center;
+
+  background: #b0b0b0;
+}
+
+/*三、页脚*/
+
+.footer {
+  position: fixed;
+  bottom: 0; /* bottom 属性规定元素的底部边缘*/
+
+  border-top-left-radius: 15px 10px;
+  border-top-right-radius: 15px 10px;
+  width: 100%;
+
+  text-align: center;
+
+  color: white;
+  background-color: #444;
+}
