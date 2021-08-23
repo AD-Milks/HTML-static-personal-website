@@ -8,7 +8,7 @@
 
 ## 网站结构
 
-为避免代码混乱，本网站导航条有四个栏目，每个页面都可以跳转到HOME页面，其中HOME页面有5个分页面；![组织结构图](file:///C:/Users/16011/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
+为避免代码混乱，本网站导航条有四个栏目，每个页面都可以跳转到HOME页面，其中HOME页面有5个分页面；![组织结构图](README.image/clip_image001.png)
 
  
 
